@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <title>HN Enhancements | Settings</title>
+        <script src="../js/settings.js" defer></script>
+        <style>
+            div.container {
+                background-color: #F6F6EF;
+                margin: 0 auto;
+                width: 85%;
+                font-size: 1.5em
+            }
+
+            div.header {
+                background-color: #FF6600;
+                font-weight: bold;
+                padding: 0.2em
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">Settings</div>
+            <div>
+                <label>
+                    <input type="checkbox" id="identify_own_comments">
+                    Identify Own Comments
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" id="identify_submitter_comments">
+                    Identify Submitter's Comments
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" id="show_parent_comment_link">
+                    Show Parent Comment Link
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" id="show_time_filter">
+                    Show Time Filter
+                </label>
+            </div>
+            <div>
+                <button id="save">SAVE</button>
+                <span id="status" style="display: none">Options saved!</span>
+            </div>
+        </div>
+    </body>
+</html>

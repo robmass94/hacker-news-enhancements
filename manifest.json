@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+
+    "name": "Hacker News Enchancements",
+    "short_name": "HN Enhancements",
+    "description": "Adds a \"parent\" link to each comment, and identifies comments by the current user and the submitter.",
+    "version": "1.0",
+
+    "content_scripts": [
+        {
+            "css": ["css/style.css"],
+            "js": ["js/script.js"],
+            "matches": ["https://news.ycombinator.com/item?id=*"]
+        }
+    ],
+
+    "icons": {
+        "48": "img/logo_48.png",
+        "128": "img/logo_128.png"
+    },
+
+    "options_page": "html/settings.html",
+
+    "permissions": [
+        "storage"
+    ]
+}

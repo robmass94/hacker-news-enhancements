@@ -1,0 +1,23 @@
+a.identifier { 
+    color: #FFFFFF !important;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 2px
+} 
+
+a.identifier span { 
+	font-weight: normal; 
+}
+
+a.identifier.current-user {
+    background-color: #5F99CF
+}
+
+a.identifier.submitter {
+    background-color: #FF6600 
+}
+
+a.parent-link {
+    cursor: pointer;
+    text-decoration: underline;
+}
