@@ -1,2 +1,2 @@
 # hacker-news-enhancements
-Chrome extension that a few convenient features to make navigating HN comment threads easier.
+Chrome extension that adds a few convenient features to allow easier navigation of HN comment threads.
